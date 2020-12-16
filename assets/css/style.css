@@ -16,8 +16,6 @@
 
   header h1 {
       font-size: 60px;
-      font-family: 'Brush Script MT', cursive;
-      text-shadow: black;
       font-weight: 900;
 
   }
@@ -40,7 +38,6 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: right;
     list-style: none;
     font-weight: 900;
     color: #ffffff;
@@ -210,13 +207,12 @@
     display: flex;
     text-align: center;
     font-family: 'Trebuchet MS';
-    border-bottom: 10px solid #414249;
     font-family: 'Courier New', monospace;
   }
   
   .aboutme img {
     width: 60%;
-    text-align: 50%;
+    text-align: center;
   }
   
   .allen-bio {
