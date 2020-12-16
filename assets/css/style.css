@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
   }
-  
+  /*Start of Header CSS*/
+
   header {
     padding: 20px 30px;
     display: flex;
@@ -15,8 +16,6 @@
 
   header h1 {
       font-size: 60px;
-      font-family: 'Brush Script MT', cursive;
-      text-shadow: black;
       font-weight: 900;
 
   }
@@ -39,7 +38,6 @@
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: right;
     list-style: none;
     font-weight: 900;
     color: #ffffff;
@@ -55,6 +53,7 @@
     float: right;
     font-family: 'Courier New', monospace;
   }
+/*End of Header CSS*/
 
   .under-bar {
       height: 40px;
@@ -69,7 +68,8 @@
     color: #080a0a;
     font-family: Helvetica, Arial, sans-serif;
   }
-      
+    /*Start of Hero*/
+
   .hero {
     border-top: 10px solid #414249;
     display: flex;
@@ -94,6 +94,7 @@
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
     margin-bottom: 40px;
   }
+/*End of Heater*/
 
   footer {
     background-image: linear-gradient(-0deg, white, #414249);
@@ -113,6 +114,7 @@
     font-weight: normal;
     font-family: 'Verdona';
   }
+/*Start of Grid CSS*/
 
   .work {
             display: grid;
@@ -189,28 +191,13 @@
     height: 100%;
   }
 
-.projects img {
-    max-height: 150px;
-}
-
-.projects {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .projects h2 {
-      text-align: center;
-  }
-
+  /*End of CSS Grids*/
 
 .completed {
   text-align: center;
 }
+
+/*Start of About Me*/
 
   .about {
     margin: 20px;
@@ -220,13 +207,12 @@
     display: flex;
     text-align: center;
     font-family: 'Trebuchet MS';
-    border-bottom: 10px solid #414249;
     font-family: 'Courier New', monospace;
   }
   
   .aboutme img {
     width: 60%;
-    text-align: 50%;
+    text-align: center;
   }
   
   .allen-bio {
@@ -247,6 +233,11 @@
   .allen-bio p {
     font-size: 17px;
   }
+
+  /*End of About Me CSS*/
+
+  /*Start of Contact Me*/
+
   .contact-form input, .contact-form textarea {
     border: 2px solid #024e76;
     display: block;
@@ -327,5 +318,4 @@
     font-style: normal;
     font-weight: bold;
   }
-
-  
+  /*End of Contact Me*/
